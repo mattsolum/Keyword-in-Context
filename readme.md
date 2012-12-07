@@ -1,10 +1,10 @@
 This will format a search result similarly to the way Google, Wikipedia and other big players do. i.e.,
 
-	Search string: Key Word Context
-	
-    *Key Word in Context - Wikipedia, the free encyclopedia*
-    http://en.wikipedia.org/wiki/Key_Word_in_Context
-	...KWIC is an acronym for *Key Word* In *Context*...*word* (except the stop *words*) in titles to be...
+Search string: Key Word Context
+
+>"*Key Word in Context - Wikipedia, the free encyclopedia*
+http://en.wikipedia.org/wiki/Key_Word_in_Context
+...KWIC is an acronym for *Key Word* In *Context*...*word* (except the stop *words*) in titles to be..."
 
 Given search terms and the body text of a result it will find segments of text that include the keywords and then output the N highest-density segments surrounded by ellipses.
 
